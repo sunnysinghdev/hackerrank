@@ -106,19 +106,19 @@ def buildString(a, b, s1):
 #-------------------------------------------------------------------------
 def test_case20():
     f = open("case20.txt", 'r')
-    case = f.readline()
+    case = f.readline().replace('\n','')
     #ans = 771187
     printv(buildString(6647, 6650, case), 771187)
     f.close()
 
     f = open('case20_a.txt','r')
-    case_a = f.readline()
+    case_a = f.readline().replace('\n','')
     #ans = 2514362
     printv(buildString(7246, 7246, case_a), 2514362)
     f.close()
 
     f = open('case20_b.txt','r')
-    case_b = f.readline()
+    case_b = f.readline().replace('\n','')
     print(len(case_b))
     f.close()
 
