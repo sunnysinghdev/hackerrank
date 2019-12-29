@@ -219,19 +219,19 @@ def test_case11():
 
 #--------------------------------------------
 counter = 0
-test_case0()
+#test_case0()
 print("Calls=", counter)
 print('')
 #---------------------------------------------
 counter = 0
 memDict = dict()
-test_case1()
+#test_case1()
 print("Calls=", counter, "Min cost", minCost)
 print('')
 #--------------------------------------------
 counter = 0
 memDict = dict()
-test_case5()
+#test_case5()
 print("Calls=", counter)
 print('')
 #--------------------------------------------
@@ -245,7 +245,7 @@ print('')
 counter = 0
 memDict = dict()
 
-test_case11()
+#test_case11()
 print("Calls=", counter)
 print('')
 #---------------------------------------------
